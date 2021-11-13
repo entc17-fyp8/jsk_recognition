@@ -6,7 +6,7 @@ geometry_msgs/Vector3 dimensions  # size of bounding box (x, y, z)
 float32 value
 uint32 label
 # velocity - required for tracking
-float32 velocity
+geometry_msgs/Vector3 velocity
 # tracking_id
 string tracking_id
 #age
